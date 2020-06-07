@@ -13,15 +13,15 @@
 	<key>CFBundleName</key>
 	<string>RemoveKerningExceptions</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.0.1</string>
 	<key>UpdateFeedURL</key>
 	<string>https://raw.githubusercontent.com/mekkablue/RemoveKerningExceptions/master/RemoveKerningExceptions.glyphsFilter/Contents/Info.plist</string>
 	<key>productPageURL</key>
 	<string>https://github.com/mekkablue/RemoveKerningExceptions</string>
 	<key>productReleaseNotes</key>
-	<string>Glyphs 3 compatibility</string>
+	<string>Updated plugin binary.</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright, Rainer Erich Scheichelbauer, 2016</string>
 	<key>NSPrincipalClass</key>
