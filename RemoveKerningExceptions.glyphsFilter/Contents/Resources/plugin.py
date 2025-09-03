@@ -36,12 +36,15 @@ class RemoveKerningExceptions(FilterWithoutDialog):
 
 	@objc.python_method
 	def filter(self, layer, inEditView, customParameters):
+		font = layer.font()
+		if not font:
+			return
+
 		glyph = layer.parent
 		if glyph:
 			glyphID = glyph.id
 			glyphName = glyph.name
 			masterID = layer.master.id
-			font = layer.font()
 		
 			# glyph on the left side:
 			if glyphID in font.kerning[masterID].keys():
